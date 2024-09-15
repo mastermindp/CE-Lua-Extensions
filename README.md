@@ -1,2 +1,2 @@
 # CE-Lua-Extensions
-Thanks ^^
+^^ Thanks For Being Here ^^
