@@ -1,12 +1,9 @@
 
-
---The Code Created By a Generator
-
 function createGUI()
   -- Create a basic form
   local form = createForm()
   form.Caption = "AoB Scanner"
-  form.Width = 400
+  form.Width = 450  -- Increased the form width
   form.Height = 350
   form.Position = 'poScreenCenter'
 
@@ -32,21 +29,23 @@ function createGUI()
   local saveButton = createButton(form)
   saveButton.Caption = "Save Results"
   saveButton.Top = 60
-  saveButton.Left = 100
+  saveButton.Left = 120
+  saveButton.Width = 100  -- Adjusted button width
   saveButton.Enabled = false
 
   -- Button to clear results
   local clearButton = createButton(form)
   clearButton.Caption = "Clear Results"
   clearButton.Top = 60
-  clearButton.Left = 200
+  clearButton.Left = 230
+  clearButton.Width = 100  -- Adjusted button width
   clearButton.Enabled = false
 
   -- Create a list to display scan results
   local resultList = createListBox(form)
   resultList.Top = 100
   resultList.Left = 10
-  resultList.Width = 360
+  resultList.Width = 410  -- Adjusted list width to match the form
   resultList.Height = 180
 
   -- Right-click menu for copying address
